@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="902c85cd-13c7-4d57-830c-e9abf5683541" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/efs.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/emails/error-notification.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/emails/example.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmd/api/errors.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmd/api/handlers.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmd/api/routes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/funcs/funcs.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/response/json.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/smtp/mailer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/validator/helpers.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/validator/validator.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/api/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/api/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/api/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/api/server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/version/version.go" beforeDir="false" />
-    </list>
+    <list default="true" id="902c85cd-13c7-4d57-830c-e9abf5683541" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
