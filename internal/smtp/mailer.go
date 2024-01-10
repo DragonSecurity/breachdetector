@@ -2,12 +2,15 @@ package smtp
 
 import (
 	"bytes"
+	"time"
+
 	"github.com/dragonsecurity/breachdetector/assets"
 	"github.com/dragonsecurity/breachdetector/internal/funcs"
+
 	"github.com/wneessen/go-mail"
+
 	htmlTemplate "html/template"
 	textTemplate "text/template"
-	"time"
 )
 
 const defaultTimeout = 10 * time.Second

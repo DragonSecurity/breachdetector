@@ -1,11 +1,12 @@
 package validator
 
 import (
-	"golang.org/x/exp/constraints"
 	"net/url"
 	"regexp"
 	"strings"
 	"unicode/utf8"
+
+	"golang.org/x/exp/constraints"
 )
 
 var (

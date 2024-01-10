@@ -13,7 +13,7 @@ help:
 # QUALITY CONTROL
 # ==================================================================================== #
 
-## tidy: format code and tidy mod file
+## tidy: format code and tidy modfile
 .PHONY: tidy
 tidy:
 	go fmt ./...
@@ -44,22 +44,22 @@ test/cover:
 	go test -v -race -buildvcs -coverprofile=/tmp/coverage.out ./...
 	go tool cover -html=/tmp/coverage.out
 
-## build: build the cmd/api application
+## build: build the cmd/web application
 .PHONY: build
 build:
-	go build -o=/tmp/bin/api ./cmd/api
+	go build -o=./bin/web ./cmd/web
 
-## run: run the cmd/api application
+## run: run the cmd/web application
 .PHONY: run
 run: build
-	/tmp/bin/api
+	./bin/web
 
 ## run/live: run the application with reloading on file changes
 .PHONY: run/live
 run/live:
 	go run github.com/cosmtrek/air@v1.43.0 \
-		--build.cmd "make build" --build.bin "/tmp/bin/api" --build.delay "100" \
-		--build.exclude_dir "db-data" \
+		--build.cmd "make build" --build.bin "./bin/web" --build.delay "100" \
+		--build.exclude_dir "" \
 		--build.include_ext "go, tpl, tmpl, html, css, scss, js, ts, sql, jpeg, jpg, gif, png, bmp, svg, webp, ico" \
 		--misc.clean_on_exit "true"
 
@@ -71,30 +71,30 @@ run/live:
 ## migrations/new name=$1: create a new database migration
 .PHONY: migrations/new
 migrations/new:
-	go run -tags 'postgres' github.com/golang-migrate/migrate/v4/cmd/migrate@latest create -seq -ext=.sql -dir=./assets/migrations ${name}
+	go run -tags 'sqlite3' github.com/golang-migrate/migrate/v4/cmd/migrate@latest create -seq -ext=.sql -dir=./assets/migrations ${name}
 
 ## migrations/up: apply all up database migrations
 .PHONY: migrations/up
 migrations/up:
-	go run -tags 'postgres' github.com/golang-migrate/migrate/v4/cmd/migrate@latest -path=./assets/migrations -database="postgres://postgres:password@localhost:5432/breachdetector?sslmode=disable" up
+	go run -tags 'sqlite3' github.com/golang-migrate/migrate/v4/cmd/migrate@latest -path=./assets/migrations -database="sqlite3://db.sqlite" up
 
 ## migrations/down: apply all down database migrations
 .PHONY: migrations/down
 migrations/down:
-	go run -tags 'postgres' github.com/golang-migrate/migrate/v4/cmd/migrate@latest -path=./assets/migrations -database="postgres://postgres:password@localhost:5432/breachdetector?sslmode=disable" down
+	go run -tags 'sqlite3' github.com/golang-migrate/migrate/v4/cmd/migrate@latest -path=./assets/migrations -database="sqlite3://db.sqlite" down
 
 ## migrations/goto version=$1: migrate to a specific version number
 .PHONY: migrations/goto
 migrations/goto:
-	go run -tags 'postgres' github.com/golang-migrate/migrate/v4/cmd/migrate@latest -path=./assets/migrations -database="postgres://postgres:password@localhost:5432/breachdetector?sslmode=disable" goto ${version}
+	go run -tags 'sqlite3' github.com/golang-migrate/migrate/v4/cmd/migrate@latest -path=./assets/migrations -database="sqlite3://db.sqlite" goto ${version}
 
 ## migrations/force version=$1: force database migration
 .PHONY: migrations/force
 migrations/force:
-	go run -tags 'postgres' github.com/golang-migrate/migrate/v4/cmd/migrate@latest -path=./assets/migrations -database="postgres://postgres:password@localhost:5432/breachdetector?sslmode=disable" force ${version}
+	go run -tags 'sqlite3' github.com/golang-migrate/migrate/v4/cmd/migrate@latest -path=./assets/migrations -database="sqlite3://db.sqlite" force ${version}
 
 ## migrations/version: print the current in-use migration version
 .PHONY: migrations/version
 migrations/version:
-	go run -tags 'postgres' github.com/golang-migrate/migrate/v4/cmd/migrate@latest -path=./assets/migrations -database="postgres://postgres:password@localhost:5432/breachdetector?sslmode=disable" version
+	go run -tags 'sqlite3' github.com/golang-migrate/migrate/v4/cmd/migrate@latest -path=./assets/migrations -database="sqlite3://db.sqlite" version
 

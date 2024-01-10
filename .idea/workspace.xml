@@ -4,7 +4,54 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="902c85cd-13c7-4d57-830c-e9abf5683541" name="Changes" comment="" />
+    <list default="true" id="902c85cd-13c7-4d57-830c-e9abf5683541" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/static/img/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/static/js/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/templates/base.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/templates/pages/errors/400.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/templates/pages/errors/401.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/templates/pages/errors/404.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/templates/pages/errors/500.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/templates/pages/forgotten-password-confirmation.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/templates/pages/forgotten-password.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/templates/pages/home.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/templates/pages/login.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/templates/pages/password-reset-confirmation.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/templates/pages/password-reset.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/templates/pages/signup.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/templates/partials/footer.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/templates/partials/nav.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/web/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/cookies/cookies.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/database/password_resets.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/database/users.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/password/common.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/password/hash.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/request/forms.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/request/json.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/response/metrics.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/response/templates.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/token/token.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/efs.go" beforeDir="false" afterPath="$PROJECT_DIR$/assets/efs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/migrations/000001_initialize_schema.down.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/migrations/000001_initialize_schema.up.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/api/errors.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/api/handlers.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/api/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/api/routes.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/api/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/database/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/database/db.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/smtp/mailer.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/smtp/mailer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/validator/helpers.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/validator/helpers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/validator/validator.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/validator/validator.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,25 +85,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;Makefile Target.run/live.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/alanis/projects/dragonsecurity/breachdetector&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultGoTemplateProperty": "Go File",
+    "Makefile Target.run/live.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/alanis/projects/dragonsecurity/breachdetector",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/cmd/api" />
