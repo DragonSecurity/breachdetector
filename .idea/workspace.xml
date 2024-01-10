@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="902c85cd-13c7-4d57-830c-e9abf5683541" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cmd/web/context.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmd/web/errors.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmd/web/handlers.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmd/web/helpers.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmd/web/middleware.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmd/web/routes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmd/web/server.go" afterDir="false" />
+    <list default="true" id="902c85cd-13c7-4d57-830c-e9abf5683541" name="Changes" comment="add user to db">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/build-errors.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,6 +90,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="core server completed" />
+    <MESSAGE value="add user to db" />
+    <option name="LAST_COMMIT_MESSAGE" value="add user to db" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
