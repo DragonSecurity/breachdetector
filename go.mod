@@ -7,7 +7,7 @@ require (
 	github.com/carlmjohnson/versioninfo v0.22.5
 	github.com/go-playground/form/v4 v4.2.1
 	github.com/golang-migrate/migrate/v4 v4.17.0
-	github.com/gorilla/sessions v1.2.2
+	github.com/gorilla/sessions v1.4.0
 	github.com/jmoiron/sqlx v1.3.5
 	github.com/justinas/nosurf v1.1.1
 	github.com/lmittmann/tint v1.0.3
