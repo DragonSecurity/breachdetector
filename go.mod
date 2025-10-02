@@ -11,7 +11,7 @@ require (
 	github.com/jmoiron/sqlx v1.3.5
 	github.com/justinas/nosurf v1.1.1
 	github.com/lmittmann/tint v1.0.3
-	github.com/mattn/go-sqlite3 v1.14.19
+	github.com/mattn/go-sqlite3 v1.14.32
 	github.com/tomasen/realip v0.0.0-20180522021738-f0c99a92ddce
 	github.com/wneessen/go-mail v0.4.0
 	golang.org/x/crypto v0.17.0
