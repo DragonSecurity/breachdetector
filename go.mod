@@ -3,7 +3,7 @@ module github.com/dragonsecurity/breachdetector
 go 1.21.5
 
 require (
-	github.com/alexedwards/flow v0.1.0
+	github.com/alexedwards/flow v0.2.0
 	github.com/carlmjohnson/versioninfo v0.22.5
 	github.com/go-playground/form/v4 v4.2.1
 	github.com/golang-migrate/migrate/v4 v4.17.0
