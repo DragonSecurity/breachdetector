@@ -1,6 +1,6 @@
 module github.com/dragonsecurity/breachdetector
 
-go 1.22.12
+go 1.23.12
 
 require (
 	github.com/alexedwards/flow v0.1.0
