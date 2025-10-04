@@ -10,7 +10,7 @@ require (
 	github.com/gorilla/sessions v1.4.0
 	github.com/jmoiron/sqlx v1.4.0
 	github.com/justinas/nosurf v1.2.0
-	github.com/lmittmann/tint v1.0.3
+	github.com/lmittmann/tint v1.0.7
 	github.com/mattn/go-sqlite3 v1.14.22
 	github.com/tomasen/realip v0.0.0-20180522021738-f0c99a92ddce
 	github.com/wneessen/go-mail v0.4.0
