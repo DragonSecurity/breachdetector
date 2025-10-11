@@ -4,7 +4,7 @@ go 1.25.1
 
 require (
 	github.com/alexedwards/flow v0.2.0
-	github.com/carlmjohnson/versioninfo v0.22.5
+	github.com/carlmjohnson/versioninfo/v2 v2.24.1
 	github.com/go-playground/form/v4 v4.3.0
 	github.com/golang-migrate/migrate/v4 v4.19.0
 	github.com/gorilla/sessions v1.4.0
